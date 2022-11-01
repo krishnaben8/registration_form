@@ -1,5 +1,4 @@
 const express = require("express");
-const { stringify } = require("nodemon/lib/utils");
 const app = express();
 const dbConnect = require("../utils/db_config");
 
